@@ -1,0 +1,31 @@
+.Body{
+    background-image: url("../../img/pokemon-unite-2385455.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+}
+
+
+   @media (max-width:1230px){
+         .Body{
+    
+           background-image: url("../../img/1661762383_856655_1661762477_noticia_normal.jpeg");
+          
+     } 
+        .Button{
+      font-size: 25px;
+     }
+      
+        .Button:hover{
+          background: #2e4595;
+          color:#fec10e;
+            
+        }
+       
+    }
+
+      

@@ -1,0 +1,33 @@
+.label{
+    transition: transform .5s color .3s;
+}
+
+.input:focus + .label,
+.input:not(:placeholder-shown)+ .label{
+    transform: translate(-12px) scale(.7);
+    transform-origin:left top ;
+    color:#2e4595 ;
+}
+
+
+.input:focus ~.form__line,
+.input:not(:placeholder-shown)~ .form__line{
+    transform: scale(1);
+}
+
+
+.input:not(:placeholder-shown)~ .form__line{
+    color:#4d4646;
+}
+
+.form__line{
+
+    transform: scale(0);
+    transform: left bottom;
+
+}
+
+@media (min-width:425px){ 
+    .from-title{
+        font-size:1.8rem}
+}

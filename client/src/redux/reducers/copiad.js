@@ -1,0 +1,52 @@
+let efi=[ 
+    {id: 1, name: 'bulbasaur', hp: 45, attack: 49, defense: 49},
+    {id: 2, name: 'ivysaur', hp: 60, attack: 62, defense: 63},
+    {id: 3, name: 'venusaur', hp: 80, attack: 82, defense: 83},
+    {id: 4, name: 'charmander', hp: 39, attack: 52, defense: 43},
+    {id: 5, name: 'charmeleon', hp: 58, attack: 64, defense: 58},
+    {id: 6, name: 'charizard', hp: 78, attack: 84, defense: 78},
+    {id: 7, name: 'squirtle', hp: 44, attack: 48, defense: 65},
+    {id: 8, name: 'wartortle', hp: 59, attack: 63, defense: 80},
+    {id: 9, name: 'blastoise', hp: 79, attack: 83, defense: 100},
+    {id: 10, name: 'caterpie', hp: 45, attack: 30, defense: 35},
+    {id: 11, name: 'metapod', hp: 50, attack: 20, defense: 55},
+    {id: 12, name: 'butterfree', hp: 60, attack: 45, defense: 50},
+    {id: 13, name: 'weedle', hp: 40, attack: 35, defense: 30},
+    {id: 14, name: 'kakuna', hp: 45, attack: 25, defense: 50},
+    {id: 15, name: 'beedrill', hp: 65, attack: 90, defense: 40},
+    {id: 16, name: 'pidgey', hp: 40, attack: 45, defense: 40},
+    {id: 17, name: 'pidgeotto', hp: 63, attack: 60, defense: 55},
+    {id: 18, name: 'pidgeot', hp: 83, attack: 80, defense: 75},
+    {id: 19, name: 'rattata', hp: 30, attack: 56, defense: 35},
+    {id: 20, name: 'raticate', hp: 55, attack: 81, defense: 60},
+    {id: 21, name: 'spearow', hp: 40, attack: 60, defense: 30},
+    {id: 22, name: 'fearow', hp: 65, attack: 90, defense: 65},
+    {id: 23, name: 'ekans', hp: 35, attack: 60, defense: 44},
+    {id: 24, name: 'arbok', hp: 60, attack: 95, defense: 69},
+    {id: 25, name: 'pikachu', hp: 35, attack: 55, defense: 40},
+    {id: 26, name: 'raichu', hp: 60, attack: 90, defense: 55},
+    {id: 27, name: 'sandshrew', hp: 50, attack: 75, defense: 85},
+    {id: 28, name: 'sandslash', hp: 75, attack: 100, defense: 110},
+    {id: 29, name: 'nidoran-f', hp: 55, attack: 47, defense: 52},
+    {id: 30, name: 'nidorina', hp: 70, attack: 62, defense: 67},
+    {id: 31, name: 'nidoqueen', hp: 90, attack: 92, defense: 87},
+    {id: 32, name: 'nidoran-m', hp: 46, attack: 57, defense: 40}, 
+    {id: 33, name: 'nidorino', hp: 61, attack: 72, defense: 57},
+    {id: 34, name: 'nidoking', hp: 81, attack: 102, defense: 77},
+    {id: 35, name: 'clefairy', hp: 70, attack: 45, defense: 48},
+    {id: 36, name: 'clefable', hp: 95, attack: 70, defense: 73},
+    {id: 37, name: 'vulpix', hp: 38, attack: 41, defense: 40},
+    {id: 38, name: 'ninetales', hp: 73, attack: 76, defense: 75},
+    {id: 39, name: 'jigglypuff', hp: 115, attack: 45, defense: 20}, 
+    {id: 40, name: 'wigglytuff', hp: 140, attack: 70, defense: 45},
+    {name: 'andando', tipos: Array(1), id: '2a521a01-8921-494d-a44d-913d6dc2b8b7', hp: 20, attack: 2},
+    {name: 'andandos', tipos: Array(2), id: '645a5eee-9a19-4a7e-aeed-36979e3d26c2', hp: 20, attack: 2},
+    {name: 'andandoss', tipos: Array(2), id: 'be7a31fa-68d4-4f80-a749-f8e0aed4ef29', hp: 20, attack: 2},
+    {name: 'andandosssa', tipos: Array(2), id: '72d9f72a-97c4-4c73-b137-be9639c7270c', hp: 20, attack: 2,}]
+    
+    
+    function SortArray(x, y){
+        return x.attack -y.attack;
+    }
+    efi= efi.sort(SortArray);
+    console.log(efi);
